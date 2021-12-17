@@ -1,8 +1,10 @@
 package com.bl.AddressBook;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class AddressBookUC1 {
+	ArrayList<String> list = new ArrayList<String>();
 	public static void contacts() {
 
 		Scanner sc = new Scanner(System.in);
@@ -11,7 +13,6 @@ public class AddressBookUC1 {
 		System.out.println("Enter last name");
 		String lastName = sc.next();
 		System.out.println("Enter housenumber");
-
 		int houseNumber = sc.nextInt();
 		System.out.println("Enter address");
 		String address = sc.next();
